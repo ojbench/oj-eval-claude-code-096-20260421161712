@@ -10,4 +10,4 @@ set_target_properties(code PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}"
 )
 
-target_compile_options(code PRIVATE -O2 -pipe -static-libgcc -static-libstdc++)
+target_compile_options(code PRIVATE -O2 -pipe)
